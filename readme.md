@@ -30,10 +30,28 @@ A full-stack Generative-AI demo that lets users ask natural-language questions a
 }
 ```
 
-## DIRECTORY INFO
+## Directory Info
 ```bash
 chatbot_images/    # contains conversation images
 data/              # menus items stored in json
 menus/             # menu pdfs acquired through webscraping
 ```
 
+---
+
+## Conversation Images
+### Menu Queries
+![CTM serving restaurants](chatbot_images/CTM_menu.png)
+![Desert options in a Restaurant](chatbot_images/dessert.png)
+![Mutton dishes accross Restaurants](chatbot_images/mutton_menu.png)
+
+### Price Queries
+![Naan prices ](chatbot_images/naan_prices.png)
+![Kadhai paneer prices](chatbot_images/kadhai_paneer.png)
+
+### Location And contact Queries
+![Heritage Location](chatbot_images/heritage_add.png)
+![SaardarJI Location ](chatbot_images/saardarJi_add.png)
+
+### Taste Queries
+![Spicy Dishes](chatbot_images/spicy.png)
