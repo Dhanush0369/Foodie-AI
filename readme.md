@@ -1,5 +1,5 @@
 # Foodie-AI   
-Web-Scraping ➜ JSON Knowledge Base ➜ FAISS ➜ Falcon-7B Chatbot (Streamlit UI)
+Web-Scraping ➜ JSON Knowledge Base ➜ FAISS ➜ Chatbot (Streamlit UI)
 
 A full-stack Generative-AI demo that lets users ask natural-language questions about real restaurant menus and instantly receive accurate, contextual answers.
 
@@ -41,17 +41,54 @@ menus/             # menu pdfs acquired through webscraping
 
 ## Conversation Images
 ### Menu Queries
-![CTM serving restaurants](chatbot_images/CTM_menu.png)
-![Desert options in a Restaurant](chatbot_images/dessert.png)
-![Mutton dishes accross Restaurants](chatbot_images/mutton_menu.png)
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/CTM_menu.png" alt="Chat screenshot">
+  <br>
+  <em>CTM serving restaurants</em>
+</p>
+
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/dessert.png" alt="Chat screenshot">
+  <br>
+  <em>Desert options in a Restaurant</em>
+</p>
+
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/mutton_menu.png alt="Chat screenshot">
+  <br>
+  <em>Mutton dishes accross Restaurants</em>
+</p>
+
 
 ### Price Queries
-![Naan prices ](chatbot_images/naan_prices.png)
-![Kadhai paneer prices](chatbot_images/kadhai_paneer.png)
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/naan_prices.png" alt="Chat screenshot">
+  <br>
+  <em>Naan prices accross restaurants</em>
+</p>
+
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/kadhai_paneer.png" alt="Chat screenshot">
+  <br>
+  <em>Kadhai paneer prices accross restaurants</em>
+</p>
 
 ### Location And contact Queries
-![Heritage Location](chatbot_images/heritage_add.png)
-![SaardarJI Location ](chatbot_images/saardarJi_add.png)
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/heritage_add.png" alt="Chat screenshot">
+  <br>
+  <em>Heritage Location</em>
+</p>
+
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/saardarJi_add.png" alt="Chat screenshot">
+  <br>
+  <em>[SaardarJI Location</em>
+</p>
 
 ### Taste Queries
-![Spicy Dishes](chatbot_images/spicy.png)
+<p align="center" style="margin-bottom:24px;">
+  <img src="chatbot_images/spicy.png" alt="Chat screenshot">
+  <br>
+  <em>Spicy Dishes</em>
+</p>
