@@ -5,6 +5,35 @@ A full-stack Generative-AI demo that lets users ask natural-language questions a
 
 ---
 
+## Restaurant Websites Used
+Heritage - https://www.heritagegurgaon.in
+Thai Pavilion - https://www.tajhotels.com/en-in/hotels/taj-city-centre-gurugram/restaurants/thai-pavilion-gurugram
+SardaarJI - https://sardaarjirestaurant.com/menu.html
+
+---
+
+## Workflow
+
+1. **Web Scraping**  
+   • Extract restaurant name, location, and contact info from the website using Selenium  
+   • Automatically download menu PDFs
+
+2. **Menu Parsing**  
+   • Parse PDF using `pdfplumber` and `re`  
+   • Normalize dish text and clean symbols/units  
+   • Convert each menu item to a structured JSON record (as per schema)
+
+3. **Vector Embedding**  
+   • Generate embeddings using `all-MiniLM-L6-v2` (384-dimensions)  
+   • Store vectors in FAISS index  
+
+4. **RAG Pipeline**  
+   • Use FAISS to retrieve relevant JSON dishes for a user query  
+   • Feed retrieved context to `mistralai/Mistral-7B-Instruct-v0.3`  
+   • Display chatbot response in Streamlit UI
+
+---
+
 ## Key Features
 | Layer | Tech | Highlights |
 |-------|------|------------|
@@ -54,7 +83,7 @@ menus/             # menu pdfs acquired through webscraping
 </p>
 
 <p align="center" style="margin-bottom:24px;">
-  <img src="chatbot_images/mutton_menu.png alt="Chat screenshot">
+  <img src="chatbot_images/mutton_menu.png" alt="Chat screenshot">
   <br>
   <em>Mutton dishes accross Restaurants</em>
 </p>
@@ -83,7 +112,7 @@ menus/             # menu pdfs acquired through webscraping
 <p align="center" style="margin-bottom:24px;">
   <img src="chatbot_images/saardarJi_add.png" alt="Chat screenshot">
   <br>
-  <em>[SaardarJI Location</em>
+  <em>SaardarJI Location</em>
 </p>
 
 ### Taste Queries
@@ -92,3 +121,6 @@ menus/             # menu pdfs acquired through webscraping
   <br>
   <em>Spicy Dishes</em>
 </p>
+
+## Demo Video
+[Watch Demo Video](https://drive.google.com/file/d/1xdi5OksefveFbndXtnSeIxQaGl5THyn0/view?usp=drive_link)
