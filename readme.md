@@ -6,9 +6,11 @@ A full-stack Generative-AI demo that lets users ask natural-language questions a
 ---
 
 ## Restaurant Websites Used
-Heritage - https://www.heritagegurgaon.in
-Thai Pavilion - https://www.tajhotels.com/en-in/hotels/taj-city-centre-gurugram/restaurants/thai-pavilion-gurugram
-SardaarJI - https://sardaarjirestaurant.com/menu.html
+
+- [Heritage](https://www.heritagegurgaon.in)
+- [Thai Pavilion](https://www.tajhotels.com/en-in/hotels/taj-city-centre-gurugram/restaurants/thai-pavilion-gurugram)
+- [SardaarJI](https://sardaarjirestaurant.com/menu.html)
+
 
 ---
 
@@ -16,7 +18,7 @@ SardaarJI - https://sardaarjirestaurant.com/menu.html
 
 1. **Web Scraping**  
    • Extract restaurant name, location, and contact info from the website using Selenium  
-   • Automatically download menu PDFs
+   • Download menu PDFs from restaurant websites
 
 2. **Menu Parsing**  
    • Parse PDF using `pdfplumber` and `re`  
