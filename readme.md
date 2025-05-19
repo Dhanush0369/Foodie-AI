@@ -54,7 +54,7 @@ A full-stack Generative-AI demo that lets users ask natural-language questions a
   "name": "CHICKEN TIKKA BUTTER MASALA",
   "description": "TRADITIONAL CHICKEN TIKKA PCS COOKED WITH THICK SPICY AND BUTTER GRAVY",
   "price": "499",
-  "category": "Veg Main Course",
+  "category": "Main Course",
   "restaurant_name": "HERITAGE",
   "contact": "call us 9311442255/77/99",
   "location": "sco 55 old judicial complex, Civil lines mor chowk gurgaon, 122001"
