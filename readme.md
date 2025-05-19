@@ -51,14 +51,14 @@ A full-stack Generative-AI demo that lets users ask natural-language questions a
 
 ```jsonc
 {
-  "name": "CHICKEN TIKKA BUTTER MASALA",
-  "description": "TRADITIONAL CHICKEN TIKKA PCS COOKED WITH THICK SPICY AND BUTTER GRAVY",
-  "price": "499",
-  "category": "Main Course",
+  "name": "sweet corn",
+  "description": "creamy corn and chopped vegetables finesed with spring onion",
+  "price": "199/229",
+  "category": "Soups",
   "restaurant_name": "HERITAGE",
   "contact": "call us 9311442255/77/99",
   "location": "sco 55 old judicial complex, Civil lines mor chowk gurgaon, 122001"
-}
+  }
 ```
 
 ## Directory Info
@@ -66,6 +66,30 @@ A full-stack Generative-AI demo that lets users ask natural-language questions a
 chatbot_images/    # contains conversation images
 data/              # menus items stored in json
 menus/             # menu pdfs acquired through webscraping
+```
+
+---
+## SetUp
+### Clone Repo
+```bash
+git clone https://github.com/Dhanush0369/Foodie-AI.git
+cd Foodie-AI
+```
+
+### Intall Libraries
+```bash
+pip install -r requirements.txt
+```
+
+### Add .env file
+Create a .env file in the root directory:
+```bash
+HF_TOKEN=your_huggingface_token_here
+```
+
+### Run Chatbot
+```bash
+streamlit run rag_chatbot.py
 ```
 
 ---
