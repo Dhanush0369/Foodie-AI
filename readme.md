@@ -149,4 +149,4 @@ streamlit run rag_chatbot.py
 </p>
 
 ## Demo Video
-[Watch Demo Video](https://drive.google.com/file/d/1xdi5OksefveFbndXtnSeIxQaGl5THyn0/view?usp=drive_link)
+[Watch Demo Video](https://youtu.be/lS0APRRjtPQ?si=yxtZcOztaHjA_jic)
